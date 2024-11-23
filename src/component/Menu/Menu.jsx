@@ -1,5 +1,5 @@
 import React from "react";
-import saladImage from "../../assets/images/food1.jpeg";
+import saladImage from "../../assets/images/salad.png"
 import vegiImage from "../../assets/images/vegetable salad.png";
 import eggImage from "../../assets/images/egg veggie salad.png";
 
