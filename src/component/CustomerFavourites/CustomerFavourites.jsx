@@ -10,7 +10,7 @@ const PopularCategories = () => {
     {
       title: "Main Dish",
       count: "86 dishes",
-      image: mainDish, 
+      image: mainDish,
     },
     {
       title: "Break Fast",
