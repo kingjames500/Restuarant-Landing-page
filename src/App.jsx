@@ -1,11 +1,17 @@
-import Navbar from "./component/Header/Header";
-import CustomerFavourites from "./Component/CustomerFavourites/CustomerFavourites";
 
+import Header from "./component/Header/Header";
+import HeroSection from "./component/Hero/Hero";
+import CustomerFavourites from "./Component/CustomerFavourites/CustomerFavourites";
+import SpecialDishes from "./component/Menu/Menu";
 function App() {
   return (
     <>
-      <Navbar />
-      <CustomerFavourites />
+
+      <Header />
+      <HeroSection />
+     <CustomerFavourites />
+      <SpecialDishes />
+
     </>
   );
 }

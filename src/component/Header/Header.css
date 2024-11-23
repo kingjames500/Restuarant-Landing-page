@@ -1,9 +1,3 @@
-/* General styling */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -11,32 +5,27 @@ body {
   padding: 10px 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
-/* Logo styling */
 .navbar-logo {
   display: flex;
   align-items: center;
 }
 
 .logo-icon {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   color: #00c853;
   /* Green color */
-  margin-right: 5px;
 }
 
 .logo-text {
   font-size: 20px;
   font-weight: bold;
-  color: black;
+  margin-left: 5px;
+  color: #000;
 }
 
-/* Navigation links */
 .navbar-links {
   display: flex;
   list-style: none;
@@ -50,26 +39,15 @@ body {
 
 .navbar-links a {
   text-decoration: none;
+  color: #000;
   font-size: 16px;
-  color: black;
+  font-weight: 500;
 }
 
 .navbar-links a.active {
   color: #00c853;
-  font-weight: bold;
 }
 
-.navbar-links .dropdown a {
-  position: relative;
-}
-
-.navbar-links .dropdown a::after {
-  content: "▼";
-  font-size: 10px;
-  margin-left: 5px;
-}
-
-/* Icons and buttons */
 .navbar-icons {
   display: flex;
   align-items: center;
@@ -78,36 +56,33 @@ body {
 .icon-button {
   background: none;
   border: none;
-  margin: 0 10px;
   cursor: pointer;
-  position: relative;
+  font-size: 18px;
+  color: #000;
+  margin-right: 15px;
 }
 
-.cart {
+.icon-button.cart {
   position: relative;
 }
 
 .cart-badge {
   position: absolute;
   top: -5px;
-  right: -10px;
+  right: -5px;
   background: #00c853;
-  color: white;
-  font-size: 10px;
-  padding: 2px 6px;
+  color: #fff;
+  font-size: 12px;
   border-radius: 50%;
+  padding: 2px 6px;
 }
 
 .contact-button {
-  background-color: #00c853;
-  color: white;
+  background: #00c853;
+  color: #fff;
   border: none;
-  padding: 8px 15px;
-  font-size: 16px;
-  border-radius: 20px;
+  border-radius: 16px;
+  padding: 10px 16px;
+  font-size: 14px;
   cursor: pointer;
-}
-
-.contact-button:hover {
-  background-color: #00b246;
 }

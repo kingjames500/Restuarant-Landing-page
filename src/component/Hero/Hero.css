@@ -1,0 +1,129 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000;
+}
+
+.hero-title .highlight {
+  color: #00c853;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.order-button {
+  padding: 12px 24px;
+  background-color: #00c853;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.watch-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.play-icon {
+  font-size: 18px;
+}
+
+.hero-image {
+  position: relative;
+  border-radius: 20px;
+}
+
+.spicy-tag {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff3e0;
+  color: #d84315;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-image img {
+  --size: 20rem;
+  width: var(--size);
+}
+
+.food-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.food-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 150px;
+}
+
+.food-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.food-info {
+  padding: 10px;
+}
+
+.food-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.food-rating {
+  color: #fbc02d;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.food-price {
+  font-size: 14px;
+  color: #00c853;
+}
