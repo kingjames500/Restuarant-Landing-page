@@ -4,9 +4,9 @@
 
 We are a team of five tasked with creating a restaurant landing page. Each member will be responsible for one component of the page. The components are as follows:
 
-- Hero
+- Footer and Our story & Services - Salad
 - About Us
-- Footer & Header
+- Header
 - Menu
 - Testimonials
 
