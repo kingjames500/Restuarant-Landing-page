@@ -6,7 +6,7 @@ We are a team of five tasked with creating a restaurant landing page. Each membe
 
 - Footer and Our story & Services - Salad
 - About Us
--  Header
+- Header
 - Menu
 - Testimonials
 
