@@ -5,7 +5,7 @@ import breakfast from "../../assets/breakfast.jpg";
 import dessert from "../../assets/dessert.jpg";
 import browseAll from "../../assets/browseall.jpg";
 
-const PopularCategories = () => {
+const CustomerFavourites = () => {
   const categories = [
     {
       title: "Main Dish",
@@ -50,4 +50,4 @@ const PopularCategories = () => {
   );
 };
 
-export default PopularCategories;
+export default CustomerFavourites;
