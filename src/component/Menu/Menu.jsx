@@ -1,8 +1,7 @@
 import React from "react";
-import saladImage from "../../assets/images/food1.jpeg";
+import saladImage from "../../assets/images/salad.png"
 import vegiImage from "../../assets/images/vegetable salad.png";
-import eggImage from "../../assets/images/food3.jpeg";
-import pizza from "../../assets/images/pizza.png";
+import eggImage from "../../assets/images/egg veggie salad.png";
 
 const dishes = [
   {
@@ -29,14 +28,7 @@ const dishes = [
     rating: 4.5,
     image: eggImage,
   },
-  {
-    id: 4,
-    name: "Pizza",
-    description: "Description of the item",
-    price: "23.00",
-    rating: 4.5,
-    image: pizza,
-  },
+ 
 ];
 
 const SpecialDishes = () => {
