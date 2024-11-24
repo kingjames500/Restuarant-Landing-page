@@ -1,4 +1,4 @@
-/* .footerContainer{
+.footerContainer{
     display: flex;
     justify-content: space-around;
     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -12,4 +12,4 @@ span{
     background: #39db4a;
     color: #fff;
     padding: .1rem .2rem;
-} */
+}
