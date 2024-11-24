@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 6rem;
+    margin-top: 2rem;
 }
 
 .copyright-socials{
@@ -20,13 +21,13 @@
 }
 
 .social-media-handles{
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     background: #edffef;
     color: #808781;
     text-align: center;
-    padding: .5rem;
+    padding-top: .5rem;
 }
 
 .facebook{
