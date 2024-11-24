@@ -1,4 +1,9 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .navbar {
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,16 +18,17 @@
 }
 
 .logo-icon {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
-  color: #00c853;
-  /* Green color */
+  background: #39db4a;
+  color: #fff;
+  padding: 0.1rem;
 }
 
 .logo-text {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   color: #000;
 }
 
@@ -45,7 +51,7 @@
 }
 
 .navbar-links a.active {
-  color: #00c853;
+  color: #39db4a;
 }
 
 .navbar-icons {
@@ -70,7 +76,7 @@
   position: absolute;
   top: -5px;
   right: -5px;
-  background: #00c853;
+  background: #39db4a;
   color: #fff;
   font-size: 12px;
   border-radius: 50%;
@@ -78,11 +84,12 @@
 }
 
 .contact-button {
-  background: #00c853;
+  background: #39db4a;
   color: #fff;
   border: none;
   border-radius: 16px;
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
+  font-weight: 800;
 }
