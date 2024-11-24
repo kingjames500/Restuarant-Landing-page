@@ -1,5 +1,5 @@
 import React from "react";
-import saladImage from "../../assets/images/salad.png"
+import saladImage from "../../assets/images/salad.png";
 import vegiImage from "../../assets/images/vegetable salad.png";
 import eggImage from "../../assets/images/egg veggie salad.png";
 
@@ -28,7 +28,6 @@ const dishes = [
     rating: 4.5,
     image: eggImage,
   },
- 
 ];
 
 const SpecialDishes = () => {
