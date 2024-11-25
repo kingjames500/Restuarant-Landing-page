@@ -1,5 +1,6 @@
+
 import React from "react";
-import saladImage from "../../assets/images/salad.png"
+import saladImage from "../../assets/images/salad.png";
 import vegiImage from "../../assets/images/vegetable salad.png";
 import eggImage from "../../assets/images/egg veggie salad.png";
 
@@ -28,25 +29,12 @@ const dishes = [
     rating: 4.5,
     image: eggImage,
   },
- 
 ];
 
 const SpecialDishes = () => {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h2
-        style={{
-          color: "#FF6347",
-          fontSize: "18px",
-          textTransform: "uppercase",
-        }}
-      >
-        Special Dishes
-      </h2>
-      <h1 style={{ fontSize: "28px", marginBottom: "20px" }}>
-        Standout Dishes
-      </h1>
-      <h1 style={{ fontSize: "28px", marginBottom: "20px" }}>From Our Menu</h1>
+
       <div
         style={{
           display: "flex",
@@ -59,6 +47,7 @@ const SpecialDishes = () => {
           <div
             key={dish.id}
             style={{
+              position: "relative", 
               border: "1px solid #f0f0f0",
               borderRadius: "10px",
               overflow: "hidden",
@@ -67,6 +56,19 @@ const SpecialDishes = () => {
               textAlign: "center",
             }}
           >
+           
+            <div
+              style={{
+                position: "absolute",
+                top: "10px",
+                right: "10px",
+                fontSize: "20px",
+                color: "green", 
+                cursor: "pointer",
+              }}
+            >
+              💚
+            </div>
             <img
               src={dish.image}
               alt={dish.name}
