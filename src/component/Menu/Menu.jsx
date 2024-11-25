@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import saladImage from "../../assets/images/salad.png";
 import vegiImage from "../../assets/images/vegetable salad.png";
@@ -34,7 +35,19 @@ const dishes = [
 const SpecialDishes = () => {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-
+      <h2
+        style={{
+          color: "#FF6347",
+          fontSize: "18px",
+          textTransform: "uppercase",
+        }}
+      >
+        Special Dishes
+      </h2>
+      <h1 style={{ fontSize: "28px", marginBottom: "20px" }}>
+        Standout Dishes
+      </h1>
+      <h1 style={{ fontSize: "28px", marginBottom: "20px" }}>From Our Menu</h1>
       <div
         style={{
           display: "flex",
