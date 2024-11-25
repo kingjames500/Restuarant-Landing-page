@@ -2,7 +2,7 @@ import React from "react";
 import "./CustomerFavourites.css";
 import mainDish from "../../assets/buger.jpg";
 import breakfast from "../../assets/breakfast.jpg";
-import dessert from "../../assets/dessert.jpg";
+import dessert from "../../assets/Dessert.jpg";
 import browseAll from "../../assets/browseall.jpg";
 
 const PopularCategories = () => {
