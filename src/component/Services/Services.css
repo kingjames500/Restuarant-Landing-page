@@ -1,0 +1,78 @@
+.servicesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  margin: 5rem auto;
+  gap: 3rem;
+  margin-left: 3rem;
+}
+.about-services {
+  width: 45%;
+}
+.about-services h6 {
+  color: #ff6868;
+  margin-bottom: 1rem;
+}
+.about-services h3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: inter;
+  line-height: 1.5;
+}
+.about-services p {
+  color: #555555;
+  margin: 1.5rem 0;
+}
+.btn {
+  background: #39db4a;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.services-content {
+  width: 40%;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #39db4a;
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-card {
+  width: 30%;
+  height: 8rem;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  gap: 3rem;
+  margin-right: 1.5rem;
+}
+
+.service-card h5 {
+  color: #5fe26c;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.service-card p {
+  color: #90bd95 !important;
+  font-size: 0.5rem !important;
+}
+
+.service-card p {
+  color: #90bd95;
+  font-size: 0.7rem;
+  padding-top: 1rem;
+}

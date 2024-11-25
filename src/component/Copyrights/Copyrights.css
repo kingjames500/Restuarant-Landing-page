@@ -1,0 +1,35 @@
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+.copyright-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: start;
+}
+
+.copyright-text {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.social-media-handles {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #edffef;
+  color: #808781;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.facebook {
+  background: #39db4a;
+  color: #fff;
+}
