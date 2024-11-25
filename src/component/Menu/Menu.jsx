@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import saladImage from "../../assets/images/salad.png";
 import vegiImage from "../../assets/images/vegetable salad.png";
@@ -58,6 +60,7 @@ const SpecialDishes = () => {
           <div
             key={dish.id}
             style={{
+              position: "relative", 
               border: "1px solid #f0f0f0",
               borderRadius: "10px",
               overflow: "hidden",
@@ -66,6 +69,19 @@ const SpecialDishes = () => {
               textAlign: "center",
             }}
           >
+           
+            <div
+              style={{
+                position: "absolute",
+                top: "10px",
+                right: "10px",
+                fontSize: "20px",
+                color: "green", 
+                cursor: "pointer",
+              }}
+            >
+              💚
+            </div>
             <img
               src={dish.image}
               alt={dish.name}
